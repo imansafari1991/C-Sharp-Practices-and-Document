@@ -3,9 +3,32 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32014.148
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SOLID", "SOLID", "{8357DC54-D92E-4A2F-BD96-4993DD67837D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Single Responsibility Principle", "Single Responsibility Principle", "{116C8B59-E27E-42FD-A20D-D21137AFDD6B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ex1", "Ex1", "{A50917E8-D5CF-4B8C-AA13-DEEAC8C53078}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ex1", "SOLID\Single Responsibility Principle\Ex1\ex1\ex1.csproj", "{8E7EDFB3-BC2A-4D8B-990A-19B73CA593EA}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8E7EDFB3-BC2A-4D8B-990A-19B73CA593EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E7EDFB3-BC2A-4D8B-990A-19B73CA593EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E7EDFB3-BC2A-4D8B-990A-19B73CA593EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E7EDFB3-BC2A-4D8B-990A-19B73CA593EA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{116C8B59-E27E-42FD-A20D-D21137AFDD6B} = {8357DC54-D92E-4A2F-BD96-4993DD67837D}
+		{A50917E8-D5CF-4B8C-AA13-DEEAC8C53078} = {116C8B59-E27E-42FD-A20D-D21137AFDD6B}
+		{8E7EDFB3-BC2A-4D8B-990A-19B73CA593EA} = {A50917E8-D5CF-4B8C-AA13-DEEAC8C53078}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4EC79FAE-5F1B-4FD3-9266-DF2B39F156CC}
